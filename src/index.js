@@ -1,11 +1,15 @@
-// @ts-nocheck
-inlets = 2;
-outlets = 8;
+inlets = 1;
+outlets = 1;
 
-let counter = 0;
+const { Noise } = require('./noise')
 
 const log = (...args) => {
 	post(`${args.join(", ")}\n`);
 };
 
-const msg_int = number => log(++counter);
+const noise = new Noise()
+const msg_int = number => { 
+	const value = noise.noise(number);
+	log(value);
+	outlet(0, value)
+}
