@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "nodemon --exec npm run build",
     "build": "max-js-bundler build ./src/index.js --force -o perlin.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
