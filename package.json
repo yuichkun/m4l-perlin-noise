@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "noisejs": "^2.1.0"
+  },
+  "devDependencies": {
+    "max-js-bundler": "^1.2.0"
   }
 }
