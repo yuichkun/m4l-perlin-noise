@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "max-js-bundler build ./index.js -o perlin.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
