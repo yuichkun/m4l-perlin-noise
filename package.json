@@ -14,6 +14,7 @@
     "noisejs": "^2.1.0"
   },
   "devDependencies": {
-    "max-js-bundler": "^1.2.0"
+    "max-js-bundler": "^1.2.0",
+    "nodemon": "^2.0.2"
   }
 }
